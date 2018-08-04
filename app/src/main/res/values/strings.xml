@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">wsa-android</string>
+    <string name="facebook_app_id" translatable="false">1725832627447628</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1725832627447628</string>
+    <string-array name="country_arrays">
+        <item>Country</item>
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+    <string-array name="state_arrays">
+        <item>UP</item>
+        <item>Andhra Pradesh</item>
+        <item>Karnataka</item>
+    </string-array>
+    <string-array name="zipcode_arrays">
+        <item>226001</item>
+        <item>603103</item>
+        <item>560001</item>
+    </string-array>
+    <string-array name="maritalStatus_array">
+        <item>Single</item>
+        <item>Married</item>
+    </string-array>
+    <string-array name="kids_arrays">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="residence_arrays">
+        <item>Own House</item>
+        <item>Lease</item>
+        <item>Rent</item>
+    </string-array>
+    <string-array name="occupation_arrays">
+        <item>Government Employee</item>
+        <item>Student</item>
+        <item>Private Business</item>
+        <item>Retired</item>
+        <item>Defence</item>
+    </string-array>
+</resources>
