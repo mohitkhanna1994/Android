@@ -45,6 +45,19 @@
         <activity android:name="wsa.my.com.android.chat_Indiv" />
 
         <activity android:name="wsa.my.com.android.ViewUser"></activity>
+<service
+            android:name=".WSAFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".FireBaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>
